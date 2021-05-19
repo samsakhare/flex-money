@@ -80,9 +80,9 @@ const NavigationBar = ({ appName }) => {
                   <div className="flex space-x-4">
                     {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                     <ActiveLink href="/">Demo</ActiveLink>
-                    <ActiveLink href="/feature">Feature</ActiveLink>
+                    {/* <ActiveLink href="/feature">Feature</ActiveLink> */}
                     <ActiveLink href="/documentation">Documentation</ActiveLink>
-                    <ActiveLink href="/download">Download</ActiveLink>
+                    {/* <ActiveLink href="/download">Download</ActiveLink> */}
                   </div>
                 </div>
               </div>
@@ -99,15 +99,15 @@ const NavigationBar = ({ appName }) => {
               <ActiveLink href="/" isMobileMenu={true}>
                 Demo
               </ActiveLink>
-              <ActiveLink href="/feature" isMobileMenu={true}>
+              {/* <ActiveLink href="/feature" isMobileMenu={true}>
                 Feature
-              </ActiveLink>
+              </ActiveLink> */}
               <ActiveLink href="/documentation" isMobileMenu={true}>
                 Documentation
               </ActiveLink>
-              <ActiveLink href="/download" isMobileMenu={true}>
+              {/* <ActiveLink href="/download" isMobileMenu={true}>
                 Download
-              </ActiveLink>
+              </ActiveLink> */}
             </div>
           </div>
         </nav>
